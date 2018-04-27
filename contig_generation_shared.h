@@ -1,5 +1,5 @@
-#ifndef CONTIG_GENERATION_SHARED_H
-#define CONTIG_GENERATION_SHARED_H
+#ifndef CONTIG_GENERATION_H
+#define CONTIG_GENERATION_H
 
 #include <stdio.h>
 #include <stdlib.h>
