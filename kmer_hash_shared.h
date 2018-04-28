@@ -86,12 +86,6 @@ int64_t hashkmer(int64_t  hashtable_size, char *seq)
    return hashseq(hashtable_size, seq, KMER_PACKED_LENGTH);
 }
 
-/* Returns the hash value of a kmer */
-int64_t hashkmer_proc(int64_t  hashtable_size, char *seq)
-{
-   return hashseq(hashtable_size, seq, KMER_PACKED_LENGTH);
-}
-
 /* Looks up a kmer in the hash table and returns a pointer to that entry */
 shared shared_kmer_t* lookup_kmer_shared_local(shared_hash_table_t *hashtable, const unsigned char *kmer)
 {
