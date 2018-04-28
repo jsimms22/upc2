@@ -77,7 +77,7 @@ int main(int argc, char *argv[]){
 
     //Read and hash kmers to individual processes
     for (int i = 0; i < n_kmers_to_process*LINE_SIZE; i += LINE_SIZE) {
-	int process_owner = hashkmer_proc(THREADS, &buffer[i]);
+	int process_owner = hashkmer(THREADS, &buffer[i]);
 	//This kmer belongs to self
 	if (process_owner == MYTHREAD) {
 	    add_kmer_shared(private_hashtable, private_memory_heap, &buffer[i], buffer[i+KMER_LENGTH+1], buffer[i+KMER_LENGTH+2]);
@@ -141,7 +141,7 @@ int main(int argc, char *argv[]){
 	memcpy(contig_seq, &buffer[kmer_string_offset], sizeof(char) * KMER_LENGTH);
 
 	//Get the kmer object from distributed hash
-	int process_owner_seed = hashkmer_proc(THREADS, &buffer[kmer_string_offset]);
+	int process_owner_seed = hashkmer(THREADS, &buffer[kmer_string_offset]);
 	shared shared_kmer_t *cur_kmer;
 	if (process_owner_seed == MYTHREAD)
 	    cur_kmer = lookup_kmer_shared_local(private_hashtable, &buffer[kmer_string_offset]);
@@ -153,7 +153,7 @@ int main(int argc, char *argv[]){
 	while (right_ext != 'F') {
 	    kmer_track++;
 	    contig_seq[kmer_track + KMER_LENGTH - 1] = right_ext;
-	    int process_owner = hashkmer_proc(THREADS, &contig_seq[kmer_track]);
+	    int process_owner = hashkmer(THREADS, &contig_seq[kmer_track]);
 	    if (process_owner == MYTHREAD)
 		cur_kmer = lookup_kmer_shared_local(private_hashtable, &contig_seq[kmer_track]);
 	    else
