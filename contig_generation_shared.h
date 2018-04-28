@@ -43,6 +43,7 @@ struct kmer_t{
    kmer_t *next;
 };
 
+
 /* K-mer data structure */
 typedef struct shared_kmer_t shared_kmer_t;
 struct shared_kmer_t{
@@ -59,16 +60,24 @@ struct start_kmer_t{
    start_kmer_t *next;
 };
 
+
 /* Bucket data structure */
 typedef struct bucket_t bucket_t;
 struct bucket_t{
    kmer_t *head;          // Pointer to the first entry of that bucket
 };
 
-/* Shared bucket data structure */
+/* Bucket data structure */
 typedef struct shared_bucket_t shared_bucket_t;
 struct shared_bucket_t{
    shared shared_kmer_t *head;          // Pointer to the first entry of that bucket
+};
+
+/* Shared Hash table data structure */
+typedef struct shared_hash_table_t shared_hash_table_t;
+struct shared_hash_table_t {
+    int64_t size;           // Size of the hash table
+    shared shared_bucket_t *table;			// Entries of the hash table are pointers to buckets
 };
 
 /* Hash table data structure */
@@ -78,11 +87,11 @@ struct hash_table_t {
    bucket_t *table;			// Entries of the hash table are pointers to buckets
 };
 
-/* Hash table data structure */
-typedef struct shared_hash_table_t shared_hash_table_t;
-struct shared_hash_table_t {
-   int64_t size;           // Size of the hash table
-   shared shared_bucket_t *table;			// Entries of the hash table are pointers to buckets
+/* Shared memory heap data structure */
+typedef struct shared_memory_heap_t shared_memory_heap_t;
+struct shared_memory_heap_t {
+    shared shared_kmer_t *heap;
+    int64_t posInHeap;
 };
 
 /* Memory heap data structure */
