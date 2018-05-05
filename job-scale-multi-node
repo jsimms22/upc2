@@ -11,6 +11,6 @@
 INPUT=test
 
 cd ${PWD}
-for P in 28 56; do
-	upcrun -np $P -shared-heap=1G ./pgen ${INPUT}
+for P in 112 140 168 196 224; do
+	upcrun -np $P -share-heap=1G ./pgen ${INPUT}
 done

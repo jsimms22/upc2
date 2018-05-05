@@ -1,0 +1,3 @@
+Detected 4514197 kmers in text UFX file: test
+Generated 5736 contigs with 4617445 total bases
+Total execution time: 2.130000 seconds (1.060000 graph construction / 1.070000 graph traversal)

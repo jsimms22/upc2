@@ -1,4 +1,4 @@
-CC = CC
+CC = g++
 UPCC = upcc
 
 KMER_LENGTH 		= 51
@@ -23,4 +23,4 @@ pgen:	pgen.upc $(HEADERS)
 
 clean :
 	rm -f *.o
-rm -rf $(TARGETS)
+	rm -rf $(TARGETS)

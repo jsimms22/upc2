@@ -1,0 +1,9 @@
+Detected 4514197 kmers in text UFX file: test
+Generated 5736 contigs with 4617445 total bases
+Total execution time: 2.220000 seconds (0.950000 graph construction / 1.270000 graph traversal)
+UPCR: UPC threads 0..1 of 3 on r080.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 2, pid=12943)
+UPCR: UPC thread 2 of 3 on r080.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 2, pid=12944)
+Process 0: Reading and creating graph for K-mers 0 - 0
+Process 1: Reading and creating graph for K-mers 0 - 0
+Process 2: Reading and creating graph for K-mers 0 - -4
+Error reading...Files serial.sorted and pgen.sorted differ
