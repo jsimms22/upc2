@@ -1,7 +1,7 @@
-CC = g++
+CC = CC
 UPCC = upcc
 
-KMER_LENGTH 		= 51
+KMER_LENGTH 		= 19
 KMER_PACKED_LENGTH 	= $(shell echo $$((($(KMER_LENGTH)+3)/4)))
 
 # Add -std=gnu99 to CFLAGS if use gnu compiler

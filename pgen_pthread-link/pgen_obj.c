@@ -3,7 +3,7 @@
 #include "whirl2c.h"
 #include "upcr_proxy.h"
 /*******************************************************
- * C file translated from WHIRL Fri Apr 27 17:16:43 2018
+ * C file translated from WHIRL Sat May  5 15:09:29 2018
  *******************************************************/
 
 /* UPC Runtime specification expected: 3.6 */
@@ -75,7 +75,7 @@ struct shared_hash_table_t {
     upcr_pshared_ptr_t head;
   };
   struct kmer_t {
-      char kmer[13LL];
+      char kmer[5LL];
       char l_ext;
       char r_ext;
       struct kmer_t * next;
@@ -188,7 +188,7 @@ extern long getNumKmersInUFX(
   register _INT32 _bupc_comma0;
   register _INT32 _bupc_comma1;
   struct _IO_FILE * f;
-  char firstLine[56LL];
+  char firstLine[24LL];
   unsigned long _bupc__spilleq1;
   int fd;
   struct stat buf;
@@ -213,35 +213,35 @@ extern long getNumKmersInUFX(
     return -1LL;
   }
 #line 112 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-  (firstLine)[55] = 0;
+  (firstLine)[23] = 0;
 #line 113 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-  _bupc_comma = fread(firstLine, (unsigned long) 1ULL, (unsigned long) 55ULL, f);
+  _bupc_comma = fread(firstLine, (unsigned long) 1ULL, (unsigned long) 23ULL, f);
 #line 113 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   _bupc__spilleq1 = _bupc_comma;
 #line 113 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-  if(_bupc__spilleq1 != 55ULL)
+  if(_bupc__spilleq1 != 23ULL)
 #line 113 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   {
 #line 114 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-    fprintf(stderr, "Could not read %d bytes!\n", (int) 55);
+    fprintf(stderr, "Could not read %d bytes!\n", (int) 23);
 #line 115 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
     UPCR_EXIT_FUNCTION();
 #line 115 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
     return -2LL;
   }
 #line 118 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-  if((_INT32)((firstLine)[55]) != 0)
+  if((_INT32)((firstLine)[23]) != 0)
 #line 118 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   {
 #line 119 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-    fprintf(stderr, "UFX text file is an unexpected line length for kmer length %d\n", (int) 51);
+    fprintf(stderr, "UFX text file is an unexpected line length for kmer length %d\n", (int) 19);
 #line 120 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
     UPCR_EXIT_FUNCTION();
 #line 120 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
     return -3LL;
   }
 #line 122 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-  if((_INT32)(((_INT32)((firstLine)[51]) != 32)) && (_INT32)(((_INT32)((firstLine)[51]) != 9)))
+  if((_INT32)(((_INT32)((firstLine)[19]) != 32)) && (_INT32)(((_INT32)((firstLine)[19]) != 9)))
 #line 122 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   {
 #line 123 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
@@ -273,11 +273,11 @@ extern long getNumKmersInUFX(
 #line 133 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   totalSize = (buf).st_size;
 #line 134 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-  if((totalSize % 55LL) != 0LL)
+  if((totalSize % 23LL) != 0LL)
 #line 134 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   {
 #line 135 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-    fprintf(stderr, "UFX file is not a multiple of %d bytes for kmer length %d\n", (int) 55, (int) 51);
+    fprintf(stderr, "UFX file is not a multiple of %d bytes for kmer length %d\n", (int) 23, (int) 19);
 #line 136 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
     UPCR_EXIT_FUNCTION();
 #line 136 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
@@ -286,7 +286,7 @@ extern long getNumKmersInUFX(
 #line 138 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   fclose(f);
 #line 139 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
-  numKmers = totalSize / 55LL;
+  numKmers = totalSize / 23LL;
 #line 140 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
   printf("Detected %lld kmers in text UFX file: %s\n", numKmers, filename);
 #line 141 "/pylon5/cc3uv3p/jsimms22/upc2/contig_generation_shared.h"
@@ -326,7 +326,7 @@ extern upcr_pshared_ptr_t create_shared_memory_heap(
 #line 17 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   result = _bupc_Mstopcvt3;
 #line 18 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  _bupc_call2 = upc_alloc((unsigned long)((_UINT64)(nEntries) * 24ULL));
+  _bupc_call2 = upc_alloc((unsigned long)((_UINT64)(nEntries) * 16ULL));
 #line 18 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   _bupc_Mptra5 = UPCR_ADD_PSHARED1(result, 16ULL, thread_id);
 #line 18 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -476,7 +476,7 @@ extern struct hash_table_t * create_hash_table(
     upcri_do_exit((int) 1);
   }
 #line 61 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  _bupc_call24 = malloc((unsigned long)((_UINT64)(nEntries) * 24ULL));
+  _bupc_call24 = malloc((unsigned long)((_UINT64)(nEntries) * 16ULL));
 #line 61 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   _bupc__casttmp5 = _bupc_call24;
 #line 61 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -544,7 +544,7 @@ extern long hashkmer(
   register _INT64 _bupc_comma;
   
 #line 86 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  _bupc_comma = hashseq(hashtable_size, seq, (int) 13);
+  _bupc_comma = hashseq(hashtable_size, seq, (int) 5);
 #line 86 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   UPCR_EXIT_FUNCTION();
 #line 86 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -563,7 +563,7 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_local(
   register _INT64 _bupc_comma;
   register _UINT64 _bupc_reg8;
   register _INT32 _bupc_comma0;
-  char packedKmer[13LL];
+  char packedKmer[5LL];
   long hashval;
   upcr_pshared_ptr_t cur_table;
   upcr_pshared_ptr_t result;
@@ -575,7 +575,7 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_local(
   _INT32 _bupc_Mptreq29;
   
 #line 93 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  packSequence(kmer, (unsigned char *) packedKmer, (int) 51);
+  packSequence(kmer, (unsigned char *) packedKmer, (int) 19);
 #line 94 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   _bupc_comma = hashkmer((hashtable) -> size, packedKmer);
 #line 94 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -598,7 +598,7 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_local(
 #line 101 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
     _bupc_Mcvtptr27 = (char *) UPCR_PSHARED_TO_LOCAL(result);
 #line 101 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-    _bupc_comma0 = memcmp(packedKmer, _bupc_Mcvtptr27, (unsigned long) 13ULL);
+    _bupc_comma0 = memcmp(packedKmer, _bupc_Mcvtptr27, (unsigned long) 5ULL);
 #line 101 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
     _bupc__spilleq6 = _bupc_comma0;
 #line 101 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -611,7 +611,7 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_local(
       return result;
     }
 #line 104 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-    UPCR_GET_PSHARED(&_bupc_spillld28, result, 16, 8);
+    UPCR_GET_PSHARED(&_bupc_spillld28, result, 8, 8);
 #line 104 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
     result = _bupc_spillld28;
 #line 105 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -638,11 +638,11 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_remote(
   register _INT64 _bupc_comma;
   register _UINT64 _bupc_reg8;
   register _INT32 _bupc_comma0;
-  char packedKmer[13LL];
+  char packedKmer[5LL];
   long hashval;
   upcr_pshared_ptr_t cur_table;
   upcr_pshared_ptr_t result;
-  char curKmer[13LL];
+  char curKmer[5LL];
   int _bupc__spilleq7;
   long _bupc_spillld30;
   upcr_pshared_ptr_t _bupc_spillld31;
@@ -653,7 +653,7 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_remote(
   _INT32 _bupc_Mptreq36;
   
 #line 113 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  packSequence(kmer, (unsigned char *) packedKmer, (int) 51);
+  packSequence(kmer, (unsigned char *) packedKmer, (int) 19);
 #line 114 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   UPCR_GET_PSHARED(&_bupc_spillld30, hashtable, 0, 8);
 #line 114 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -680,9 +680,9 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_remote(
 #line 121 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
     _bupc_Mstopcvt34 = UPCR_PSHARED_TO_SHARED(result);
 #line 121 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-    upc_memget(curKmer, _bupc_Mstopcvt34, (unsigned long) 13ULL);
+    upc_memget(curKmer, _bupc_Mstopcvt34, (unsigned long) 5ULL);
 #line 122 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-    _bupc_comma0 = memcmp(packedKmer, curKmer, (unsigned long) 13ULL);
+    _bupc_comma0 = memcmp(packedKmer, curKmer, (unsigned long) 5ULL);
 #line 122 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
     _bupc__spilleq7 = _bupc_comma0;
 #line 122 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -695,7 +695,7 @@ extern upcr_pshared_ptr_t lookup_kmer_shared_remote(
       return result;
     }
 #line 125 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-    UPCR_GET_PSHARED(&_bupc_spillld35, result, 16, 8);
+    UPCR_GET_PSHARED(&_bupc_spillld35, result, 8, 8);
 #line 125 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
     result = _bupc_spillld35;
 #line 126 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -721,14 +721,14 @@ extern struct kmer_t * lookup_kmer(
   UPCR_BEGIN_FUNCTION();
   register _INT64 _bupc_comma;
   register _INT32 _bupc_comma0;
-  char packedKmer[13LL];
+  char packedKmer[5LL];
   long hashval;
   struct bucket_t cur_bucket;
   struct kmer_t * result;
   int _bupc__spilleq8;
   
 #line 134 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  packSequence(kmer, (unsigned char *) packedKmer, (int) 51);
+  packSequence(kmer, (unsigned char *) packedKmer, (int) 19);
 #line 135 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   _bupc_comma = hashkmer((hashtable) -> size, packedKmer);
 #line 135 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -742,7 +742,7 @@ extern struct kmer_t * lookup_kmer(
 #line 142 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   {
 #line 143 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-    _bupc_comma0 = memcmp(packedKmer, result, (unsigned long) 13ULL);
+    _bupc_comma0 = memcmp(packedKmer, result, (unsigned long) 5ULL);
 #line 143 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
     _bupc__spilleq8 = _bupc_comma0;
 #line 143 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -778,7 +778,7 @@ extern int add_kmer_shared(
 #line 153 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   UPCR_BEGIN_FUNCTION();
   register _INT64 _bupc_comma;
-  char packedKmer[13LL];
+  char packedKmer[5LL];
   long hashval;
   long pos;
   upcr_pshared_ptr_t cur_kmer;
@@ -789,7 +789,7 @@ extern int add_kmer_shared(
   upcr_pshared_ptr_t _bupc_spillld40;
   
 #line 156 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  packSequence(kmer, (unsigned char *) packedKmer, (int) 51);
+  packSequence(kmer, (unsigned char *) packedKmer, (int) 19);
 #line 157 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   _bupc_comma = hashkmer((hashtable) -> size, packedKmer);
 #line 157 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -797,7 +797,7 @@ extern int add_kmer_shared(
 #line 158 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   pos = (memory_heap) -> posInHeap;
 #line 159 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  _bupc_Mptra37 = UPCR_ADD_PSHAREDI((memory_heap) -> heap, 24ULL, pos);
+  _bupc_Mptra37 = UPCR_ADD_PSHAREDI((memory_heap) -> heap, 16ULL, pos);
 #line 159 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   cur_kmer = _bupc_Mptra37;
 #line 161 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -807,15 +807,15 @@ extern int add_kmer_shared(
 #line 171 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   _bupc_Mcvtptr39 = (char *) UPCR_PSHARED_TO_LOCAL(cur_kmer);
 #line 171 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  memcpy(_bupc_Mcvtptr39, (const void *)(packedKmer), (unsigned long) 13ULL);
+  memcpy(_bupc_Mcvtptr39, (const void *)(packedKmer), (unsigned long) 5ULL);
 #line 172 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  UPCR_PUT_PSHARED_VAL(cur_kmer, 13, left_ext, 1);
+  UPCR_PUT_PSHARED_VAL(cur_kmer, 5, left_ext, 1);
 #line 173 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  UPCR_PUT_PSHARED_VAL(cur_kmer, 14, right_ext, 1);
+  UPCR_PUT_PSHARED_VAL(cur_kmer, 6, right_ext, 1);
 #line 176 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   UPCR_GET_PSHARED(&_bupc_spillld40, cur_table, 0, 8);
 #line 176 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  UPCR_PUT_PSHARED_VAL(cur_kmer, 16, _bupc_spillld40, 8);
+  UPCR_PUT_PSHARED_VAL(cur_kmer, 8, _bupc_spillld40, 8);
 #line 179 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   UPCR_PUT_PSHARED_VAL(cur_table, 0, cur_kmer, 8);
 #line 182 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -839,12 +839,12 @@ extern int add_kmer(
 #line 189 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   UPCR_BEGIN_FUNCTION();
   register _INT64 _bupc_comma;
-  char packedKmer[13LL];
+  char packedKmer[5LL];
   long hashval;
   long pos;
   
 #line 192 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  packSequence(kmer, (unsigned char *) packedKmer, (int) 51);
+  packSequence(kmer, (unsigned char *) packedKmer, (int) 19);
 #line 193 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   _bupc_comma = hashkmer((hashtable) -> size, packedKmer);
 #line 193 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -852,7 +852,7 @@ extern int add_kmer(
 #line 194 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   pos = (memory_heap) -> posInHeap;
 #line 197 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
-  memcpy((memory_heap) -> heap + pos, (const void *)(packedKmer), (unsigned long) 13ULL);
+  memcpy((memory_heap) -> heap + pos, (const void *)(packedKmer), (unsigned long) 5ULL);
 #line 198 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
   (((memory_heap) -> heap + pos)) -> l_ext = left_ext;
 #line 199 "/pylon5/cc3uv3p/jsimms22/upc2/kmer_hash_shared.h"
@@ -1077,9 +1077,9 @@ extern int user_main(
 #line 29 "pgen.upc"
   n_kmers_to_process = end_kmer - start_kmer;
 #line 30 "pgen.upc"
-  char_start_position = start_kmer * 55LL;
+  char_start_position = start_kmer * 23LL;
 #line 31 "pgen.upc"
-  chars_to_read = n_kmers_to_process * 55LL;
+  chars_to_read = n_kmers_to_process * 23LL;
 #line 32 "pgen.upc"
   _bupc_call42 = malloc((unsigned long)(_UINT64)(chars_to_read));
 #line 32 "pgen.upc"
@@ -1087,7 +1087,7 @@ extern int user_main(
 #line 32 "pgen.upc"
   buffer = _bupc__casttmp10;
 #line 33 "pgen.upc"
-  _bupc_call43 = malloc((unsigned long)(_UINT64)((n_kmers_to_process_ideal * 55LL)));
+  _bupc_call43 = malloc((unsigned long)(_UINT64)((n_kmers_to_process_ideal * 23LL)));
 #line 33 "pgen.upc"
   _bupc__casttmp11 = _bupc_call43;
 #line 33 "pgen.upc"
@@ -1189,7 +1189,7 @@ extern int user_main(
 #line 73 "pgen.upc"
   max_kmers_to_transfer_to_single_process = _I8F8TRUNC((_IEEE64)((n_kmers_to_process_ideal / (_INT64)(((int) upcr_threads () )))) * _bupc_comma7);
 #line 74 "pgen.upc"
-  nchars = (max_kmers_to_transfer_to_single_process * (_INT64)(((int) upcr_threads () ))) * 55LL;
+  nchars = (max_kmers_to_transfer_to_single_process * (_INT64)(((int) upcr_threads () ))) * 23LL;
 #line 75 "pgen.upc"
   _bupc_call49 = upc_all_alloc((unsigned long)(_UINT64)(((int) upcr_threads () )), (unsigned long)(_UINT64)(nchars));
 #line 75 "pgen.upc"
@@ -1205,7 +1205,7 @@ extern int user_main(
 #line 79 "pgen.upc"
   i = 0;
 #line 79 "pgen.upc"
-  while((_INT64)(i) < (n_kmers_to_process * 55LL))
+  while((_INT64)(i) < (n_kmers_to_process * 23LL))
 #line 79 "pgen.upc"
   {
 #line 80 "pgen.upc"
@@ -1217,18 +1217,18 @@ extern int user_main(
 #line 82 "pgen.upc"
     {
 #line 83 "pgen.upc"
-      add_kmer_shared(private_hashtable, private_memory_heap, buffer + i, (char)(char) * ((buffer + (i + 51)) + 1LL), (char)(char) * ((buffer + (i + 51)) + 2LL));
+      add_kmer_shared(private_hashtable, private_memory_heap, buffer + i, (char)(char) * ((buffer + (i + 19)) + 1LL), (char)(char) * ((buffer + (i + 19)) + 2LL));
     }
     else
 #line 83 "pgen.upc"
     {
 #line 89 "pgen.upc"
-      memcpy(kmers_to_transfer + (*(process_kmer_list_offsets + process_owner) + ((process_owner * max_kmers_to_transfer_to_single_process) * 55LL)), (const void *)(buffer + i), (unsigned long) 55ULL);
+      memcpy(kmers_to_transfer + (*(process_kmer_list_offsets + process_owner) + ((process_owner * max_kmers_to_transfer_to_single_process) * 23LL)), (const void *)(buffer + i), (unsigned long) 23ULL);
 #line 90 "pgen.upc"
-      * (process_kmer_list_offsets + process_owner) = *(process_kmer_list_offsets + process_owner) + 55LL;
+      * (process_kmer_list_offsets + process_owner) = *(process_kmer_list_offsets + process_owner) + 23LL;
     }
 #line 94 "pgen.upc"
-    if((_UINT32)(*((buffer + (i + 51)) + 1LL)) == 70U)
+    if((_UINT32)(*((buffer + (i + 19)) + 1LL)) == 70U)
 #line 94 "pgen.upc"
     {
 #line 95 "pgen.upc"
@@ -1241,7 +1241,7 @@ extern int user_main(
 #line 97 "pgen.upc"
     _1 :;
 #line 97 "pgen.upc"
-    i = i + 55;
+    i = i + 23;
   }
 #line 100 "pgen.upc"
   upcr_barrier(346153896, 1);
@@ -1266,7 +1266,7 @@ extern int user_main(
 #line 108 "pgen.upc"
       _bupc_Mptra68 = UPCR_ADD_PSHARED1(kmers_to_transfer_global, 1ULL, _bupc_w2c_i0);
 #line 108 "pgen.upc"
-      _bupc_Mptra69 = UPCR_ADD_PSHAREDI(_bupc_Mptra68, 1ULL, ((_INT64)(((int) upcr_mythread () )) * max_kmers_to_transfer_to_single_process) * 55LL);
+      _bupc_Mptra69 = UPCR_ADD_PSHAREDI(_bupc_Mptra68, 1ULL, ((_INT64)(((int) upcr_mythread () )) * max_kmers_to_transfer_to_single_process) * 23LL);
 #line 108 "pgen.upc"
       _bupc_Mstopcvt70 = UPCR_PSHARED_TO_SHARED(_bupc_Mptra69);
 #line 108 "pgen.upc"
@@ -1278,11 +1278,11 @@ extern int user_main(
 #line 110 "pgen.upc"
       {
 #line 111 "pgen.upc"
-        add_kmer_shared(private_hashtable, private_memory_heap, buffer_cpy + j, (char)(char) * ((buffer_cpy + (j + 51)) + 1LL), (char)(char) * ((buffer_cpy + (j + 51)) + 2LL));
+        add_kmer_shared(private_hashtable, private_memory_heap, buffer_cpy + j, (char)(char) * ((buffer_cpy + (j + 19)) + 1LL), (char)(char) * ((buffer_cpy + (j + 19)) + 2LL));
 #line 112 "pgen.upc"
         _3 :;
 #line 112 "pgen.upc"
-        j = j + 55;
+        j = j + 23;
       }
     }
 #line 114 "pgen.upc"
@@ -1329,7 +1329,7 @@ extern int user_main(
 #line 140 "pgen.upc"
     kmer_track = 0LL;
 #line 141 "pgen.upc"
-    memcpy(contig_seq, (const void *)(buffer + kmer_string_offset), (unsigned long) 51ULL);
+    memcpy(contig_seq, (const void *)(buffer + kmer_string_offset), (unsigned long) 19ULL);
 #line 144 "pgen.upc"
     _bupc_comma11 = hashkmer((long) ((int) upcr_threads () ), (char *)(buffer + kmer_string_offset));
 #line 144 "pgen.upc"
@@ -1354,7 +1354,7 @@ extern int user_main(
       cur_kmer = _bupc_call52;
     }
 #line 150 "pgen.upc"
-    UPCR_GET_PSHARED(&_bupc_spillld74, cur_kmer, 14, 1);
+    UPCR_GET_PSHARED(&_bupc_spillld74, cur_kmer, 6, 1);
 #line 150 "pgen.upc"
     right_ext = _bupc_spillld74;
 #line 153 "pgen.upc"
@@ -1364,7 +1364,7 @@ extern int user_main(
 #line 154 "pgen.upc"
       kmer_track = kmer_track + 1LL;
 #line 155 "pgen.upc"
-      (contig_seq)[kmer_track + 50LL] = right_ext;
+      (contig_seq)[kmer_track + 18LL] = right_ext;
 #line 156 "pgen.upc"
       _bupc_comma12 = hashkmer((long) ((int) upcr_threads () ), (char *)(contig_seq) + kmer_track);
 #line 156 "pgen.upc"
@@ -1389,7 +1389,7 @@ extern int user_main(
         cur_kmer = _bupc_call54;
       }
 #line 162 "pgen.upc"
-      UPCR_GET_PSHARED(&_bupc_spillld76, cur_kmer, 14, 1);
+      UPCR_GET_PSHARED(&_bupc_spillld76, cur_kmer, 6, 1);
 #line 162 "pgen.upc"
       right_ext = _bupc_spillld76;
     }
@@ -1435,41 +1435,41 @@ extern int user_main(
 /**************************************************************************/
 /* upcc-generated strings for configuration consistency checks            */
 
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_GASNetConfig_gen, 
- "$GASNetConfig: (/tmp/upcc--3456-1524874603/pgen.trans.c) RELEASE=1.30.0,SPEC=1.8,CONDUIT=OFI(OFI-0.5/OFI-0.5),THREADMODEL=PAR,SEGMENT=FAST,PTR=64bit,noalign,pshm,nodebug,notrace,nostats,nodebugmalloc,nosrclines,timers_native,membars_native,atomics_native,atomic32_native,atomic64_native $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_UPCRConfig_gen,
- "$UPCRConfig: (/tmp/upcc--3456-1524874603/pgen.trans.c) VERSION=2.26.0,PLATFORMENV=shared-distributed,SHMEM=pthreads/pshm,SHAREDPTRREP=packed/p20:t10:a34,TRANS=berkeleyupc,nodebug,nogasp,notv,dynamicthreads $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_translatetime, 
- "$UPCTranslateTime: (pgen.o) Fri Apr 27 17:16:43 2018 $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_GASNetConfig_obj, 
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_GASNetConfig_gen, 
+ "$GASNetConfig: (/tmp/upcc--27123-1525558169/pgen.trans.c) RELEASE=1.30.0,SPEC=1.8,CONDUIT=OFI(OFI-0.5/OFI-0.5),THREADMODEL=PAR,SEGMENT=FAST,PTR=64bit,noalign,pshm,nodebug,notrace,nostats,nodebugmalloc,nosrclines,timers_native,membars_native,atomics_native,atomic32_native,atomic64_native $");
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_UPCRConfig_gen,
+ "$UPCRConfig: (/tmp/upcc--27123-1525558169/pgen.trans.c) VERSION=2.26.0,PLATFORMENV=shared-distributed,SHMEM=pthreads/pshm,SHAREDPTRREP=packed/p20:t10:a34,TRANS=berkeleyupc,nodebug,nogasp,notv,dynamicthreads $");
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_translatetime, 
+ "$UPCTranslateTime: (pgen.o) Sat May  5 15:09:29 2018 $");
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_GASNetConfig_obj, 
  "$GASNetConfig: (pgen.o) " GASNET_CONFIG_STRING " $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_UPCRConfig_obj,
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_UPCRConfig_obj,
  "$UPCRConfig: (pgen.o) " UPCR_CONFIG_STRING UPCRI_THREADCONFIG_STR " $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_translator, 
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_translator, 
  "$UPCTranslator: (pgen.o) /usr/local/upc/2.26.0/translator/install/targ (aphid) $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_upcver, 
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_upcver, 
  "$UPCVersion: (pgen.o) 2.26.0 $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_compileline, 
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_compileline, 
  "$UPCCompileLine: (pgen.o) /usr/local/upc/2.26.0/runtime/inst/bin/upcc.pl --at-remote-http -translator=/usr/local/upc/2.26.0/translator/install/targ --arch-size=64 --network=ofi --pthreads 2 --lines --trans --sizes-file=upcc-sizes pgen.i $");
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_compiletime, 
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_compiletime, 
  "$UPCCompileTime: (pgen.o) " __DATE__ " " __TIME__ " $");
 #ifndef UPCRI_CC /* ensure backward compatilibity for http netcompile */
 #define UPCRI_CC <unknown>
 #endif
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_backendcompiler, 
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_backendcompiler, 
  "$UPCRBackendCompiler: (pgen.o) " _STRINGIFY(UPCRI_CC) " $");
 
 #ifdef GASNETT_CONFIGURE_MISMATCH
-  GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_configuremismatch, 
+  GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_configuremismatch, 
    "$UPCRConfigureMismatch: (pgen.o) 1 $");
-  GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_configuredcompiler, 
+  GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_configuredcompiler, 
    "$UPCRConfigureCompiler: (pgen.o) " GASNETT_PLATFORM_COMPILER_IDSTR " $");
-  GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_buildcompiler, 
+  GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_buildcompiler, 
    "$UPCRBuildCompiler: (pgen.o) " PLATFORM_COMPILER_IDSTR " $");
 #endif
 
 /**************************************************************************/
-GASNETT_IDENT(UPCRI_IdentString_pgen_o_1524874603_transver_2,
+GASNETT_IDENT(UPCRI_IdentString_pgen_o_1525558169_transver_2,
  "$UPCTranslatorVersion: (pgen.o) 2.26.0, built on Aug 31 2017 at 17:02:50, host aphid linux-x86_64/64, gcc v4.2.4 (Ubuntu 4.2.4-1ubuntu4) $");
 GASNETT_IDENT(UPCRI_IdentString_INIT_pgen_6953898206118,"$UPCRInitFn: (pgen.trans.c) UPCRI_INIT_pgen_6953898206118 $");
 GASNETT_IDENT(UPCRI_IdentString_ALLOC_pgen_6953898206118,"$UPCRAllocFn: (pgen.trans.c) UPCRI_ALLOC_pgen_6953898206118 $");

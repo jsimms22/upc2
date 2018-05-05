@@ -43,7 +43,6 @@ struct kmer_t{
    kmer_t *next;
 };
 
-
 /* K-mer data structure */
 typedef struct shared_kmer_t shared_kmer_t;
 struct shared_kmer_t{
@@ -60,38 +59,30 @@ struct start_kmer_t{
    start_kmer_t *next;
 };
 
-
 /* Bucket data structure */
 typedef struct bucket_t bucket_t;
 struct bucket_t{
-   kmer_t *head;          // Pointer to the first entry of that bucket
+   kmer_t *head;	// Pointer to the first entry of that bucket
 };
 
-/* Bucket data structure */
+/* Shared bucket data structure */
 typedef struct shared_bucket_t shared_bucket_t;
 struct shared_bucket_t{
-   shared shared_kmer_t *head;          // Pointer to the first entry of that bucket
-};
-
-/* Shared Hash table data structure */
-typedef struct shared_hash_table_t shared_hash_table_t;
-struct shared_hash_table_t {
-    int64_t size;           // Size of the hash table
-    shared shared_bucket_t *table;			// Entries of the hash table are pointers to buckets
+   shared shared_kmer_t *head;	// Pointer to the first entry of that bucket
 };
 
 /* Hash table data structure */
 typedef struct hash_table_t hash_table_t;
 struct hash_table_t {
-   int64_t size;           // Size of the hash table
-   bucket_t *table;			// Entries of the hash table are pointers to buckets
+   int64_t size;        // Size of the hash table
+   bucket_t *table;	// Entries of the hash table are pointers to buckets
 };
 
-/* Shared memory heap data structure */
-typedef struct shared_memory_heap_t shared_memory_heap_t;
-struct shared_memory_heap_t {
-    shared shared_kmer_t *heap;
-    int64_t posInHeap;
+/* Shared Hash table data structure */
+typedef struct shared_hash_table_t shared_hash_table_t;
+struct shared_hash_table_t {
+    int64_t size;           		// Size of the hash table
+    shared shared_bucket_t *table;	// Entries of the hash table are pointers to buckets
 };
 
 /* Memory heap data structure */
@@ -99,6 +90,13 @@ typedef struct memory_heap_t memory_heap_t;
 struct memory_heap_t {
    kmer_t *heap;
    int64_t posInHeap;
+};
+
+/* Shared memory heap data structure */
+typedef struct shared_memory_heap_t shared_memory_heap_t;
+struct shared_memory_heap_t {
+    shared shared_kmer_t *heap;
+    int64_t posInHeap;
 };
 
 /* Returns the number of UFX kmers in a file */

@@ -1,0 +1,1162 @@
+UPCR: UPC thread 0 of 1 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 1, pid=11135)
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 4514197
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 1
+Input reading time: 0.134912 seconds
+Graph construction time: 0.933581 seconds
+Graph traversal time: 1.241012 seconds
+UPCR: UPC threads 0..1 of 2 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 1, pid=11227)
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 2257099 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 2257099
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 2
+Input reading time: 0.095984 seconds
+Graph construction time: 1.457113 seconds
+Graph traversal time: 1.345889 seconds
+UPCR: UPC threads 0..1 of 3 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 2, pid=11322)
+UPCR: UPC thread 2 of 3 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 2, pid=11323)
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 1504733 - 3009466
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 3009466 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 1504733
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 3
+Input reading time: 0.039234 seconds
+Graph construction time: 0.648997 seconds
+Graph traversal time: 0.543976 seconds
+UPCR: UPC threads 0..1 of 4 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 2, pid=11422)
+UPCR: UPC threads 2..3 of 4 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 2, pid=11423)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 3385650 - 4514197
+Process 1: Reading and creating graph for K-mers 1128550 - 2257100
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 2257100 - 3385650
+Process 0: Reading and creating graph for K-mers 0 - 1128550
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 4
+Input reading time: 0.034096 seconds
+Graph construction time: 0.479899 seconds
+Graph traversal time: 0.408586 seconds
+UPCR: UPC threads 0..1 of 5 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 3, pid=11522)
+UPCR: UPC threads 2..3 of 5 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 3, pid=11523)
+UPCR: UPC thread 4 of 5 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 3, pid=11524)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 902840 - 1805680
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 2708520 - 3611360
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 3611360 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 902840
+Process 2: Reading and creating graph for K-mers 1805680 - 2708520
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 5
+Input reading time: 0.031107 seconds
+Graph construction time: 0.400240 seconds
+Graph traversal time: 0.336111 seconds
+UPCR: UPC threads 0..1 of 6 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 3, pid=11627)
+UPCR: UPC threads 2..3 of 6 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 3, pid=11628)
+UPCR: UPC threads 4..5 of 6 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 3, pid=11629)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 752367
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 1504734 - 2257101
+Process 4: Reading and creating graph for K-mers 3009468 - 3761835
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 3761835 - 4514197
+Process 3: Reading and creating graph for K-mers 2257101 - 3009468
+Process 1: Reading and creating graph for K-mers 752367 - 1504734
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 6
+Input reading time: 0.034562 seconds
+Graph construction time: 0.400368 seconds
+Graph traversal time: 0.288291 seconds
+UPCR: UPC threads 0..1 of 7 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 4, pid=11736)
+UPCR: UPC threads 2..3 of 7 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 4, pid=11737)
+UPCR: UPC threads 4..5 of 7 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 4, pid=11738)
+UPCR: UPC thread 6 of 7 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 4, pid=11739)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 644886
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 1934658 - 2579544
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 3224430 - 3869316
+Process 6: Reading and creating graph for K-mers 3869316 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 644886 - 1289772
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 1289772 - 1934658
+Process 4: Reading and creating graph for K-mers 2579544 - 3224430
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 7
+Input reading time: 0.028704 seconds
+Graph construction time: 0.297158 seconds
+Graph traversal time: 0.270396 seconds
+UPCR: UPC threads 0..1 of 8 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 4, pid=11850)
+UPCR: UPC threads 2..3 of 8 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 4, pid=11851)
+UPCR: UPC threads 4..5 of 8 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 4, pid=11852)
+UPCR: UPC threads 6..7 of 8 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 4, pid=11853)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 564275 - 1128550
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 1128550 - 1692825
+Process 5: Reading and creating graph for K-mers 2821375 - 3385650
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 2257100 - 2821375
+Process 6: Reading and creating graph for K-mers 3385650 - 3949925
+Process 3: Reading and creating graph for K-mers 1692825 - 2257100
+Process 7: Reading and creating graph for K-mers 3949925 - 4514197
+Process 0: Reading and creating graph for K-mers 0 - 564275
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 8
+Input reading time: 0.031309 seconds
+Graph construction time: 0.267028 seconds
+Graph traversal time: 0.258116 seconds
+UPCR: UPC threads 0..1 of 9 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 5, pid=11963)
+UPCR: UPC threads 2..3 of 9 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 5, pid=11964)
+UPCR: UPC threads 4..5 of 9 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 5, pid=11965)
+UPCR: UPC threads 6..7 of 9 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 5, pid=11966)
+UPCR: UPC thread 8 of 9 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 5, pid=11967)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 7: Reading and creating graph for K-mers 3511046 - 4012624
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 1504734 - 2006312
+Process 8: Reading and creating graph for K-mers 4012624 - 4514197
+Process 0: Reading and creating graph for K-mers 0 - 501578
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 2507890 - 3009468
+Process 6: Reading and creating graph for K-mers 3009468 - 3511046
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 1003156 - 1504734
+Process 4: Reading and creating graph for K-mers 2006312 - 2507890
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 501578 - 1003156
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 9
+Input reading time: 0.027631 seconds
+Graph construction time: 0.292526 seconds
+Graph traversal time: 0.220891 seconds
+UPCR: UPC threads 0..1 of 10 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 5, pid=12088)
+UPCR: UPC threads 2..3 of 10 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 5, pid=12089)
+UPCR: UPC threads 4..5 of 10 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 5, pid=12090)
+UPCR: UPC threads 6..7 of 10 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 5, pid=12091)
+UPCR: UPC threads 8..9 of 10 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 5, pid=12092)
+Detected 4514197 kmers in text UFX file: test
+Process 7: Reading and creating graph for K-mers 3159940 - 3611360
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 1354260 - 1805680
+Process 8: Reading and creating graph for K-mers 3611360 - 4062780
+Process 1: Reading and creating graph for K-mers 451420 - 902840
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 1805680 - 2257100
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 2708520 - 3159940
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 451420
+Process 9: Reading and creating graph for K-mers 4062780 - 4514197
+Process 2: Reading and creating graph for K-mers 902840 - 1354260
+Process 5: Reading and creating graph for K-mers 2257100 - 2708520
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 10
+Input reading time: 0.026968 seconds
+Graph construction time: 0.203778 seconds
+Graph traversal time: 0.193051 seconds
+UPCR: UPC threads  0.. 1 of 11 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 6, pid=12208)
+UPCR: UPC threads  2.. 3 of 11 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 6, pid=12209)
+UPCR: UPC threads  4.. 5 of 11 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 6, pid=12210)
+UPCR: UPC threads  6.. 7 of 11 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 6, pid=12211)
+UPCR: UPC threads  8.. 9 of 11 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 6, pid=12212)
+UPCR: UPC thread 10 of 11 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 6, pid=12213)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 410382 - 820764
+Process 5: Reading and creating graph for K-mers 2051910 - 2462292
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 820764 - 1231146
+Process 4: Reading and creating graph for K-mers 1641528 - 2051910
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 8: Reading and creating graph for K-mers 3283056 - 3693438
+Process 6: Reading and creating graph for K-mers 2462292 - 2872674
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 1231146 - 1641528
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 4103820 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 410382
+Process 9: Reading and creating graph for K-mers 3693438 - 4103820
+Process 7: Reading and creating graph for K-mers 2872674 - 3283056
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 11
+Input reading time: 0.028440 seconds
+Graph construction time: 0.308336 seconds
+Graph traversal time: 0.199137 seconds
+UPCR: UPC threads  0.. 1 of 12 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 6, pid=12335)
+UPCR: UPC threads  2.. 3 of 12 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 6, pid=12336)
+UPCR: UPC threads  6.. 7 of 12 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 6, pid=12338)
+UPCR: UPC threads  8.. 9 of 12 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 6, pid=12339)
+UPCR: UPC threads 10..11 of 12 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 6, pid=12340)
+UPCR: UPC threads  4.. 5 of 12 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 6, pid=12337)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 8: Reading and creating graph for K-mers 3009472 - 3385656
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 1504736 - 1880920
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 2257104 - 2633288
+Process 10: Reading and creating graph for K-mers 3761840 - 4138024
+Process 0: Reading and creating graph for K-mers 0 - 376184
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 1128552 - 1504736
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 7: Reading and creating graph for K-mers 2633288 - 3009472
+Process 1: Reading and creating graph for K-mers 376184 - 752368
+Process 11: Reading and creating graph for K-mers 4138024 - 4514197
+Process 5: Reading and creating graph for K-mers 1880920 - 2257104
+Process 2: Reading and creating graph for K-mers 752368 - 1128552
+Process 9: Reading and creating graph for K-mers 3385656 - 3761840
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 12
+Input reading time: 0.027376 seconds
+Graph construction time: 0.210842 seconds
+Graph traversal time: 0.180663 seconds
+UPCR: UPC threads  0.. 1 of 13 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 7, pid=12462)
+UPCR: UPC threads  2.. 3 of 13 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 7, pid=12463)
+UPCR: UPC threads  4.. 5 of 13 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 7, pid=12464)
+UPCR: UPC threads  6.. 7 of 13 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 7, pid=12465)
+UPCR: UPC threads  8.. 9 of 13 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 7, pid=12466)
+UPCR: UPC threads 10..11 of 13 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 7, pid=12467)
+UPCR: UPC thread 12 of 13 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 6 of 7, pid=12468)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 694492 - 1041738
+Process 0: Reading and creating graph for K-mers 0 - 347246
+Process 9: Reading and creating graph for K-mers 3125214 - 3472460
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 1736230 - 2083476
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 3472460 - 3819706
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 4166952 - 4514197
+Process 3: Reading and creating graph for K-mers 1041738 - 1388984
+Detected 4514197 kmers in text UFX file: test
+Process 7: Reading and creating graph for K-mers 2430722 - 2777968
+Process 8: Reading and creating graph for K-mers 2777968 - 3125214
+Detected 4514197 kmers in text UFX file: test
+Process 11: Reading and creating graph for K-mers 3819706 - 4166952
+Process 1: Reading and creating graph for K-mers 347246 - 694492
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 1388984 - 1736230
+Process 6: Reading and creating graph for K-mers 2083476 - 2430722
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 13
+Input reading time: 0.029432 seconds
+Graph construction time: 0.180289 seconds
+Graph traversal time: 0.165563 seconds
+UPCR: UPC threads  0.. 1 of 14 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 7, pid=12594)
+UPCR: UPC threads  4.. 5 of 14 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 7, pid=12596)
+UPCR: UPC threads  2.. 3 of 14 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 7, pid=12595)
+UPCR: UPC threads  6.. 7 of 14 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 7, pid=12597)
+UPCR: UPC threads  8.. 9 of 14 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 7, pid=12598)
+UPCR: UPC threads 10..11 of 14 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 7, pid=12599)
+UPCR: UPC threads 12..13 of 14 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 6 of 7, pid=12600)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 322443 - 644886
+Process 5: Reading and creating graph for K-mers 1612215 - 1934658
+Process 7: Reading and creating graph for K-mers 2257101 - 2579544
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 967329 - 1289772
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 3224430 - 3546873
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 3869316 - 4191759
+Process 0: Reading and creating graph for K-mers 0 - 322443
+Process 9: Reading and creating graph for K-mers 2901987 - 3224430
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 644886 - 967329
+Process 4: Reading and creating graph for K-mers 1289772 - 1612215
+Process 11: Reading and creating graph for K-mers 3546873 - 3869316
+Process 8: Reading and creating graph for K-mers 2579544 - 2901987
+Process 13: Reading and creating graph for K-mers 4191759 - 4514197
+Process 6: Reading and creating graph for K-mers 1934658 - 2257101
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 14
+Input reading time: 0.033321 seconds
+Graph construction time: 0.168580 seconds
+Graph traversal time: 0.174492 seconds
+UPCR: UPC threads  0.. 1 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 8, pid=12728)
+UPCR: UPC threads  2.. 3 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 8, pid=12729)
+UPCR: UPC threads  4.. 5 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 8, pid=12730)
+UPCR: UPC threads  6.. 7 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 8, pid=12731)
+UPCR: UPC threads  8.. 9 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 8, pid=12732)
+UPCR: UPC threads 10..11 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 8, pid=12733)
+UPCR: UPC threads 12..13 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 6 of 8, pid=12734)
+UPCR: UPC thread 14 of 15 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 7 of 8, pid=12735)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 3611364 - 3912311
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 14: Reading and creating graph for K-mers 4213258 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 300947
+Process 8: Reading and creating graph for K-mers 2407576 - 2708523
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 1203788 - 1504735
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 1805682 - 2106629
+Process 13: Reading and creating graph for K-mers 3912311 - 4213258
+Process 1: Reading and creating graph for K-mers 300947 - 601894
+Process 11: Reading and creating graph for K-mers 3310417 - 3611364
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 902841 - 1203788
+Process 5: Reading and creating graph for K-mers 1504735 - 1805682
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 9: Reading and creating graph for K-mers 2708523 - 3009470
+Process 10: Reading and creating graph for K-mers 3009470 - 3310417
+Process 7: Reading and creating graph for K-mers 2106629 - 2407576
+Process 2: Reading and creating graph for K-mers 601894 - 902841
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 15
+Input reading time: 0.032674 seconds
+Graph construction time: 0.160840 seconds
+Graph traversal time: 0.163169 seconds
+UPCR: UPC threads  0.. 1 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 8, pid=12867)
+UPCR: UPC threads  6.. 7 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 8, pid=12870)
+UPCR: UPC threads 12..13 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 6 of 8, pid=12873)
+UPCR: UPC threads  2.. 3 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 8, pid=12868)
+UPCR: UPC threads  4.. 5 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 8, pid=12869)
+UPCR: UPC threads  8.. 9 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 8, pid=12871)
+UPCR: UPC threads 10..11 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 8, pid=12872)
+UPCR: UPC threads 14..15 of 16 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 7 of 8, pid=12874)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 14: Reading and creating graph for K-mers 3949932 - 4232070
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 846414 - 1128552
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 1128552 - 1410690
+Process 8: Reading and creating graph for K-mers 2257104 - 2539242
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 7: Reading and creating graph for K-mers 1974966 - 2257104
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 9: Reading and creating graph for K-mers 2539242 - 2821380
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 3667794 - 3949932
+Process 5: Reading and creating graph for K-mers 1410690 - 1692828
+Process 11: Reading and creating graph for K-mers 3103518 - 3385656
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 282138 - 564276
+Process 15: Reading and creating graph for K-mers 4232070 - 4514197
+Process 0: Reading and creating graph for K-mers 0 - 282138
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 1692828 - 1974966
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 2821380 - 3103518
+Process 12: Reading and creating graph for K-mers 3385656 - 3667794
+Process 2: Reading and creating graph for K-mers 564276 - 846414
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 16
+Input reading time: 0.029901 seconds
+Graph construction time: 0.154196 seconds
+Graph traversal time: 0.151104 seconds
+UPCR: UPC threads  0.. 1 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 9, pid=13008)
+UPCR: UPC threads  2.. 3 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 9, pid=13009)
+UPCR: UPC threads  4.. 5 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 9, pid=13010)
+UPCR: UPC threads  6.. 7 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 9, pid=13011)
+UPCR: UPC threads  8.. 9 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 9, pid=13012)
+UPCR: UPC threads 10..11 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 9, pid=13013)
+UPCR: UPC threads 12..13 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 6 of 9, pid=13014)
+UPCR: UPC threads 14..15 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 7 of 9, pid=13015)
+UPCR: UPC thread 16 of 17 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 8 of 9, pid=13016)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 2655420 - 2920962
+Detected 4514197 kmers in text UFX file: test
+Process 14: Reading and creating graph for K-mers 3717588 - 3983130
+Process 12: Reading and creating graph for K-mers 3186504 - 3452046
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 531084 - 796626
+Process 7: Reading and creating graph for K-mers 1858794 - 2124336
+Process 16: Reading and creating graph for K-mers 4248672 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 8: Reading and creating graph for K-mers 2124336 - 2389878
+Process 11: Reading and creating graph for K-mers 2920962 - 3186504
+Process 1: Reading and creating graph for K-mers 265542 - 531084
+Process 5: Reading and creating graph for K-mers 1327710 - 1593252
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 3452046 - 3717588
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 15: Reading and creating graph for K-mers 3983130 - 4248672
+Process 6: Reading and creating graph for K-mers 1593252 - 1858794
+Process 4: Reading and creating graph for K-mers 1062168 - 1327710
+Process 3: Reading and creating graph for K-mers 796626 - 1062168
+Process 0: Reading and creating graph for K-mers 0 - 265542
+Process 9: Reading and creating graph for K-mers 2389878 - 2655420
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 17
+Input reading time: 0.029019 seconds
+Graph construction time: 0.219753 seconds
+Graph traversal time: 0.142965 seconds
+UPCR: UPC threads  0.. 1 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 0 of 9, pid=13154)
+UPCR: UPC threads  2.. 3 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 1 of 9, pid=13155)
+UPCR: UPC threads  4.. 5 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 2 of 9, pid=13156)
+UPCR: UPC threads  6.. 7 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 3 of 9, pid=13157)
+UPCR: UPC threads  8.. 9 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 4 of 9, pid=13158)
+UPCR: UPC threads 10..11 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 5 of 9, pid=13159)
+UPCR: UPC threads 12..13 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 6 of 9, pid=13160)
+UPCR: UPC threads 14..15 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 7 of 9, pid=13161)
+UPCR: UPC threads 16..17 of 18 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 8 of 9, pid=13162)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 4012624 - 4263413
+Process 4: Reading and creating graph for K-mers 1003156 - 1253945
+Process 15: Reading and creating graph for K-mers 3761835 - 4012624
+Process 0: Reading and creating graph for K-mers 0 - 250789
+Process 2: Reading and creating graph for K-mers 501578 - 752367
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 3260257 - 3511046
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 2507890 - 2758679
+Process 8: Reading and creating graph for K-mers 2006312 - 2257101
+Process 6: Reading and creating graph for K-mers 1504734 - 1755523
+Process 5: Reading and creating graph for K-mers 1253945 - 1504734
+Process 14: Reading and creating graph for K-mers 3511046 - 3761835
+Process 3: Reading and creating graph for K-mers 752367 - 1003156
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 250789 - 501578
+Process 12: Reading and creating graph for K-mers 3009468 - 3260257
+Detected 4514197 kmers in text UFX file: test
+Process 11: Reading and creating graph for K-mers 2758679 - 3009468
+Detected 4514197 kmers in text UFX file: test
+Process 17: Reading and creating graph for K-mers 4263413 - 4514197
+Process 9: Reading and creating graph for K-mers 2257101 - 2507890
+Process 7: Reading and creating graph for K-mers 1755523 - 2006312
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 18
+Input reading time: 0.028091 seconds
+Graph construction time: 0.164659 seconds
+Graph traversal time: 0.150408 seconds
+UPCR: UPC threads  6.. 7 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 10, pid=13306)
+UPCR: UPC threads  8.. 9 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 10, pid=13307)
+UPCR: UPC threads 10..11 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 10, pid=13308)
+UPCR: UPC threads 12..13 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 10, pid=13309)
+UPCR: UPC thread 18 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 10, pid=13312)
+UPCR: UPC threads  0.. 1 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 10, pid=13303)
+UPCR: UPC threads  2.. 3 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 10, pid=13304)
+UPCR: UPC threads  4.. 5 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 10, pid=13305)
+UPCR: UPC threads 14..15 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 10, pid=13310)
+UPCR: UPC threads 16..17 of 19 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 10, pid=13311)
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 712770 - 950360
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 3801440 - 4039030
+Process 18: Reading and creating graph for K-mers 4276620 - 4514197
+Process 8: Reading and creating graph for K-mers 1900720 - 2138310
+Process 12: Reading and creating graph for K-mers 2851080 - 3088670
+Process 13: Reading and creating graph for K-mers 3088670 - 3326260
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 11: Reading and creating graph for K-mers 2613490 - 2851080
+Process 7: Reading and creating graph for K-mers 1663130 - 1900720
+Process 5: Reading and creating graph for K-mers 1187950 - 1425540
+Process 1: Reading and creating graph for K-mers 237590 - 475180
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 2375900 - 2613490
+Detected 4514197 kmers in text UFX file: test
+Process 15: Reading and creating graph for K-mers 3563850 - 3801440
+Process 2: Reading and creating graph for K-mers 475180 - 712770
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 950360 - 1187950
+Process 14: Reading and creating graph for K-mers 3326260 - 3563850
+Process 17: Reading and creating graph for K-mers 4039030 - 4276620
+Process 0: Reading and creating graph for K-mers 0 - 237590
+Process 6: Reading and creating graph for K-mers 1425540 - 1663130
+Process 9: Reading and creating graph for K-mers 2138310 - 2375900
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 19
+Input reading time: 0.043317 seconds
+Graph construction time: 0.115647 seconds
+Graph traversal time: 0.145040 seconds
+UPCR: UPC threads  0.. 1 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 10, pid=13456)
+UPCR: UPC threads  2.. 3 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 10, pid=13457)
+UPCR: UPC threads  4.. 5 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 10, pid=13458)
+UPCR: UPC threads  6.. 7 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 10, pid=13459)
+UPCR: UPC threads  8.. 9 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 10, pid=13460)
+UPCR: UPC threads 10..11 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 10, pid=13461)
+UPCR: UPC threads 12..13 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 10, pid=13462)
+UPCR: UPC threads 14..15 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 10, pid=13463)
+UPCR: UPC threads 16..17 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 10, pid=13464)
+UPCR: UPC threads 18..19 of 20 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 10, pid=13465)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 1128550 - 1354260
+Process 14: Reading and creating graph for K-mers 3159940 - 3385650
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 18: Reading and creating graph for K-mers 4062780 - 4288490
+Process 3: Reading and creating graph for K-mers 677130 - 902840
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 225710 - 451420
+Process 8: Reading and creating graph for K-mers 1805680 - 2031390
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 2708520 - 2934230
+Process 0: Reading and creating graph for K-mers 0 - 225710
+Process 19: Reading and creating graph for K-mers 4288490 - 4514197
+Process 2: Reading and creating graph for K-mers 451420 - 677130
+Process 7: Reading and creating graph for K-mers 1579970 - 1805680
+Process 15: Reading and creating graph for K-mers 3385650 - 3611360
+Process 4: Reading and creating graph for K-mers 902840 - 1128550
+Process 11: Reading and creating graph for K-mers 2482810 - 2708520
+Process 17: Reading and creating graph for K-mers 3837070 - 4062780
+Process 13: Reading and creating graph for K-mers 2934230 - 3159940
+Process 9: Reading and creating graph for K-mers 2031390 - 2257100
+Process 16: Reading and creating graph for K-mers 3611360 - 3837070
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 2257100 - 2482810
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 1354260 - 1579970
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 20
+Input reading time: 0.054941 seconds
+Graph construction time: 0.099613 seconds
+Graph traversal time: 0.132283 seconds
+UPCR: UPC threads  4.. 5 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 11, pid=13616)
+UPCR: UPC threads  6.. 7 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 11, pid=13617)
+UPCR: UPC threads 10..11 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 11, pid=13619)
+UPCR: UPC threads  0.. 1 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 11, pid=13614)
+UPCR: UPC threads  2.. 3 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 11, pid=13615)
+UPCR: UPC threads  8.. 9 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 11, pid=13618)
+UPCR: UPC threads 12..13 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 11, pid=13620)
+UPCR: UPC threads 14..15 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 11, pid=13623)
+UPCR: UPC threads 16..17 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 11, pid=13630)
+UPCR: UPC threads 18..19 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 11, pid=13631)
+UPCR: UPC thread 20 of 21 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 11, pid=13632)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 3439392 - 3654354
+Process 20: Reading and creating graph for K-mers 4299240 - 4514197
+Process 7: Reading and creating graph for K-mers 1504734 - 1719696
+Process 0: Reading and creating graph for K-mers 0 - 214962
+Process 8: Reading and creating graph for K-mers 1719696 - 1934658
+Process 12: Reading and creating graph for K-mers 2579544 - 2794506
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 1074810 - 1289772
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 644886 - 859848
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 859848 - 1074810
+Process 18: Reading and creating graph for K-mers 3869316 - 4084278
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 2149620 - 2364582
+Process 15: Reading and creating graph for K-mers 3224430 - 3439392
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 429924 - 644886
+Process 19: Reading and creating graph for K-mers 4084278 - 4299240
+Process 14: Reading and creating graph for K-mers 3009468 - 3224430
+Process 1: Reading and creating graph for K-mers 214962 - 429924
+Process 9: Reading and creating graph for K-mers 1934658 - 2149620
+Process 17: Reading and creating graph for K-mers 3654354 - 3869316
+Process 6: Reading and creating graph for K-mers 1289772 - 1504734
+Process 13: Reading and creating graph for K-mers 2794506 - 3009468
+Process 11: Reading and creating graph for K-mers 2364582 - 2579544
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 21
+Input reading time: 0.041062 seconds
+Graph construction time: 0.114645 seconds
+Graph traversal time: 0.136179 seconds
+UPCR: UPC threads  0.. 1 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 11, pid=13907)
+UPCR: UPC threads  2.. 3 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 11, pid=13908)
+UPCR: UPC threads  4.. 5 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 11, pid=13909)
+UPCR: UPC threads  6.. 7 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 11, pid=13910)
+UPCR: UPC threads  8.. 9 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 11, pid=13911)
+UPCR: UPC threads 12..13 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 11, pid=13913)
+UPCR: UPC threads 14..15 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 11, pid=13914)
+UPCR: UPC threads 16..17 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 11, pid=13915)
+UPCR: UPC threads 18..19 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 11, pid=13916)
+UPCR: UPC threads 20..21 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 11, pid=13917)
+UPCR: UPC threads 10..11 of 22 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 11, pid=13912)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 205191 - 410382
+Process 3: Reading and creating graph for K-mers 615573 - 820764
+Process 5: Reading and creating graph for K-mers 1025955 - 1231146
+Process 11: Reading and creating graph for K-mers 2257101 - 2462292
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 14: Reading and creating graph for K-mers 2872674 - 3077865
+Process 20: Reading and creating graph for K-mers 4103820 - 4309011
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 2051910 - 2257101
+Process 6: Reading and creating graph for K-mers 1231146 - 1436337
+Process 9: Reading and creating graph for K-mers 1846719 - 2051910
+Process 12: Reading and creating graph for K-mers 2462292 - 2667483
+Detected 4514197 kmers in text UFX file: test
+Process 8: Reading and creating graph for K-mers 1641528 - 1846719
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 7: Reading and creating graph for K-mers 1436337 - 1641528
+Process 13: Reading and creating graph for K-mers 2667483 - 2872674
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 18: Reading and creating graph for K-mers 3693438 - 3898629
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 205191
+Process 2: Reading and creating graph for K-mers 410382 - 615573
+Process 4: Reading and creating graph for K-mers 820764 - 1025955
+Process 15: Reading and creating graph for K-mers 3077865 - 3283056
+Process 16: Reading and creating graph for K-mers 3283056 - 3488247
+Process 21: Reading and creating graph for K-mers 4309011 - 4514197
+Process 19: Reading and creating graph for K-mers 3898629 - 4103820
+Detected 4514197 kmers in text UFX file: test
+Process 17: Reading and creating graph for K-mers 3488247 - 3693438
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 22
+Input reading time: 0.041381 seconds
+Graph construction time: 0.157433 seconds
+Graph traversal time: 0.140551 seconds
+UPCR: UPC threads  0.. 1 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 12, pid=14069)
+UPCR: UPC threads  2.. 3 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 12, pid=14070)
+UPCR: UPC threads  4.. 5 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 12, pid=14071)
+UPCR: UPC threads  6.. 7 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 12, pid=14072)
+UPCR: UPC threads  8.. 9 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 12, pid=14073)
+UPCR: UPC threads 10..11 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 12, pid=14074)
+UPCR: UPC threads 12..13 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 12, pid=14075)
+UPCR: UPC threads 14..15 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 12, pid=14076)
+UPCR: UPC threads 16..17 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 12, pid=14077)
+UPCR: UPC threads 18..19 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 12, pid=14078)
+UPCR: UPC threads 20..21 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 12, pid=14079)
+UPCR: UPC thread 22 of 23 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 11 of 12, pid=14080)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 392540 - 588810
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 785080 - 981350
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 1962700 - 2158970
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 18: Reading and creating graph for K-mers 3532860 - 3729130
+Process 7: Reading and creating graph for K-mers 1373890 - 1570160
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 3140320 - 3336590
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 2551510 - 2747780
+Detected 4514197 kmers in text UFX file: test
+Process 22: Reading and creating graph for K-mers 4317940 - 4514197
+Process 15: Reading and creating graph for K-mers 2944050 - 3140320
+Process 11: Reading and creating graph for K-mers 2158970 - 2355240
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 1177620 - 1373890
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 9: Reading and creating graph for K-mers 1766430 - 1962700
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 19: Reading and creating graph for K-mers 3729130 - 3925400
+Process 20: Reading and creating graph for K-mers 3925400 - 4121670
+Process 0: Reading and creating graph for K-mers 0 - 196270
+Process 5: Reading and creating graph for K-mers 981350 - 1177620
+Process 12: Reading and creating graph for K-mers 2355240 - 2551510
+Process 14: Reading and creating graph for K-mers 2747780 - 2944050
+Detected 4514197 kmers in text UFX file: test
+Process 21: Reading and creating graph for K-mers 4121670 - 4317940
+Process 17: Reading and creating graph for K-mers 3336590 - 3532860
+Process 8: Reading and creating graph for K-mers 1570160 - 1766430
+Detected 4514197 kmers in text UFX file: test
+Process 1: Reading and creating graph for K-mers 196270 - 392540
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 588810 - 785080
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 23
+Input reading time: 0.045779 seconds
+Graph construction time: 0.096073 seconds
+Graph traversal time: 0.151023 seconds
+UPCR: UPC threads  0.. 1 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 12, pid=14240)
+UPCR: UPC threads  2.. 3 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 12, pid=14241)
+UPCR: UPC threads  4.. 5 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 12, pid=14242)
+UPCR: UPC threads  6.. 7 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 12, pid=14243)
+UPCR: UPC threads  8.. 9 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 12, pid=14244)
+UPCR: UPC threads 10..11 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 12, pid=14245)
+UPCR: UPC threads 12..13 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 12, pid=14246)
+UPCR: UPC threads 14..15 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 12, pid=14247)
+UPCR: UPC threads 16..17 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 12, pid=14249)
+UPCR: UPC threads 18..19 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 12, pid=14250)
+UPCR: UPC threads 20..21 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 12, pid=14251)
+UPCR: UPC threads 22..23 of 24 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 11 of 12, pid=14252)
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 188092
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 15: Reading and creating graph for K-mers 2821380 - 3009472
+Process 23: Reading and creating graph for K-mers 4326116 - 4514197
+Process 9: Reading and creating graph for K-mers 1692828 - 1880920
+Detected 4514197 kmers in text UFX file: test
+Process 18: Reading and creating graph for K-mers 3385656 - 3573748
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 2257104 - 2445196
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 1880920 - 2069012
+Detected 4514197 kmers in text UFX file: test
+Process 21: Reading and creating graph for K-mers 3949932 - 4138024
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 1128552 - 1316644
+Process 4: Reading and creating graph for K-mers 752368 - 940460
+Process 2: Reading and creating graph for K-mers 376184 - 564276
+Process 7: Reading and creating graph for K-mers 1316644 - 1504736
+Detected 4514197 kmers in text UFX file: test
+Process 11: Reading and creating graph for K-mers 2069012 - 2257104
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 3009472 - 3197564
+Process 22: Reading and creating graph for K-mers 4138024 - 4326116
+Process 8: Reading and creating graph for K-mers 1504736 - 1692828
+Process 3: Reading and creating graph for K-mers 564276 - 752368
+Process 1: Reading and creating graph for K-mers 188092 - 376184
+Process 5: Reading and creating graph for K-mers 940460 - 1128552
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 2445196 - 2633288
+Process 19: Reading and creating graph for K-mers 3573748 - 3761840
+Process 14: Reading and creating graph for K-mers 2633288 - 2821380
+Process 20: Reading and creating graph for K-mers 3761840 - 3949932
+Process 17: Reading and creating graph for K-mers 3197564 - 3385656
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 24
+Input reading time: 0.045030 seconds
+Graph construction time: 0.098233 seconds
+Graph traversal time: 0.130210 seconds
+UPCR: UPC threads  0.. 1 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 13, pid=14411)
+UPCR: UPC threads  2.. 3 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 13, pid=14412)
+UPCR: UPC threads  4.. 5 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 13, pid=14413)
+UPCR: UPC threads  6.. 7 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 13, pid=14414)
+UPCR: UPC threads  8.. 9 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 13, pid=14415)
+UPCR: UPC threads 10..11 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 13, pid=14416)
+UPCR: UPC threads 12..13 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 13, pid=14417)
+UPCR: UPC threads 14..15 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 13, pid=14418)
+UPCR: UPC threads 16..17 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 13, pid=14419)
+UPCR: UPC threads 18..19 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 13, pid=14420)
+UPCR: UPC threads 20..21 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 13, pid=14421)
+UPCR: UPC threads 22..23 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 11 of 13, pid=14422)
+UPCR: UPC thread 24 of 25 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 12 of 13, pid=14423)
+Detected 4514197 kmers in text UFX file: test
+Process 0: Reading and creating graph for K-mers 0 - 180568
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 23: Reading and creating graph for K-mers 4153064 - 4333632
+Process 1: Reading and creating graph for K-mers 180568 - 361136
+Process 6: Reading and creating graph for K-mers 1083408 - 1263976
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 18: Reading and creating graph for K-mers 3250224 - 3430792
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 17: Reading and creating graph for K-mers 3069656 - 3250224
+Process 20: Reading and creating graph for K-mers 3611360 - 3791928
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 14: Reading and creating graph for K-mers 2527952 - 2708520
+Process 13: Reading and creating graph for K-mers 2347384 - 2527952
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 9: Reading and creating graph for K-mers 1625112 - 1805680
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 541704 - 722272
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 902840 - 1083408
+Process 22: Reading and creating graph for K-mers 3972496 - 4153064
+Process 7: Reading and creating graph for K-mers 1263976 - 1444544
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 1805680 - 1986248
+Process 16: Reading and creating graph for K-mers 2889088 - 3069656
+Process 24: Reading and creating graph for K-mers 4333632 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 722272 - 902840
+Process 21: Reading and creating graph for K-mers 3791928 - 3972496
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 361136 - 541704
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 2166816 - 2347384
+Process 15: Reading and creating graph for K-mers 2708520 - 2889088
+Process 8: Reading and creating graph for K-mers 1444544 - 1625112
+Detected 4514197 kmers in text UFX file: test
+Process 19: Reading and creating graph for K-mers 3430792 - 3611360
+Process 11: Reading and creating graph for K-mers 1986248 - 2166816
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 25
+Input reading time: 0.039623 seconds
+Graph construction time: 0.080368 seconds
+Graph traversal time: 0.147426 seconds
+UPCR: UPC threads  0.. 1 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 13, pid=14584)
+UPCR: UPC threads  2.. 3 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 13, pid=14585)
+UPCR: UPC threads  4.. 5 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 13, pid=14586)
+UPCR: UPC threads  6.. 7 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 13, pid=14587)
+UPCR: UPC threads  8.. 9 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 13, pid=14588)
+UPCR: UPC threads 10..11 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 13, pid=14589)
+UPCR: UPC threads 12..13 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 13, pid=14590)
+UPCR: UPC threads 14..15 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 13, pid=14591)
+UPCR: UPC threads 16..17 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 13, pid=14592)
+UPCR: UPC threads 18..19 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 13, pid=14593)
+UPCR: UPC threads 20..21 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 13, pid=14594)
+UPCR: UPC threads 22..23 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 11 of 13, pid=14595)
+UPCR: UPC threads 24..25 of 26 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 12 of 13, pid=14596)
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 2083476 - 2257099
+Process 2: Reading and creating graph for K-mers 347246 - 520869
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 1041738 - 1215361
+Process 14: Reading and creating graph for K-mers 2430722 - 2604345
+Process 18: Reading and creating graph for K-mers 3125214 - 3298837
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 2257099 - 2430722
+Process 10: Reading and creating graph for K-mers 1736230 - 1909853
+Process 8: Reading and creating graph for K-mers 1388984 - 1562607
+Process 20: Reading and creating graph for K-mers 3472460 - 3646083
+Process 23: Reading and creating graph for K-mers 3993329 - 4166952
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 7: Reading and creating graph for K-mers 1215361 - 1388984
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 520869 - 694492
+Detected 4514197 kmers in text UFX file: test
+Process 11: Reading and creating graph for K-mers 1909853 - 2083476
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 24: Reading and creating graph for K-mers 4166952 - 4340575
+Process 1: Reading and creating graph for K-mers 173623 - 347246
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 694492 - 868115
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 9: Reading and creating graph for K-mers 1562607 - 1736230
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 17: Reading and creating graph for K-mers 2951591 - 3125214
+Process 19: Reading and creating graph for K-mers 3298837 - 3472460
+Process 21: Reading and creating graph for K-mers 3646083 - 3819706
+Process 15: Reading and creating graph for K-mers 2604345 - 2777968
+Process 0: Reading and creating graph for K-mers 0 - 173623
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 868115 - 1041738
+Process 22: Reading and creating graph for K-mers 3819706 - 3993329
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 2777968 - 2951591
+Detected 4514197 kmers in text UFX file: test
+Process 25: Reading and creating graph for K-mers 4340575 - 4514197
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 26
+Input reading time: 0.059774 seconds
+Graph construction time: 0.076375 seconds
+Graph traversal time: 0.136616 seconds
+UPCR: UPC threads  4.. 5 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 14, pid=14763)
+UPCR: UPC threads  6.. 7 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 14, pid=14764)
+UPCR: UPC threads  0.. 1 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 14, pid=14761)
+UPCR: UPC threads  2.. 3 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 14, pid=14762)
+UPCR: UPC threads  8.. 9 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 14, pid=14765)
+UPCR: UPC threads 10..11 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 14, pid=14766)
+UPCR: UPC threads 12..13 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 14, pid=14767)
+UPCR: UPC threads 14..15 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 14, pid=14768)
+UPCR: UPC threads 16..17 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 14, pid=14769)
+UPCR: UPC threads 18..19 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 14, pid=14770)
+UPCR: UPC threads 20..21 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 14, pid=14771)
+UPCR: UPC threads 22..23 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 11 of 14, pid=14772)
+UPCR: UPC threads 24..25 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 12 of 14, pid=14773)
+UPCR: UPC thread 26 of 27 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 13 of 14, pid=14774)
+Detected 4514197 kmers in text UFX file: test
+Process 5: Reading and creating graph for K-mers 835965 - 1003158
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 2173509 - 2340702
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 334386 - 501579
+Process 20: Reading and creating graph for K-mers 3343860 - 3511053
+Process 0: Reading and creating graph for K-mers 0 - 167193
+Process 4: Reading and creating graph for K-mers 668772 - 835965
+Process 11: Reading and creating graph for K-mers 1839123 - 2006316
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 10: Reading and creating graph for K-mers 1671930 - 1839123
+Process 6: Reading and creating graph for K-mers 1003158 - 1170351
+Detected 4514197 kmers in text UFX file: test
+Process 8: Reading and creating graph for K-mers 1337544 - 1504737
+Detected 4514197 kmers in text UFX file: test
+Process 15: Reading and creating graph for K-mers 2507895 - 2675088
+Detected 4514197 kmers in text UFX file: test
+Process 19: Reading and creating graph for K-mers 3176667 - 3343860
+Process 25: Reading and creating graph for K-mers 4179825 - 4347018
+Process 26: Reading and creating graph for K-mers 4347018 - 4514197
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 2006316 - 2173509
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 3: Reading and creating graph for K-mers 501579 - 668772
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 2675088 - 2842281
+Detected 4514197 kmers in text UFX file: test
+Process 24: Reading and creating graph for K-mers 4012632 - 4179825
+Process 23: Reading and creating graph for K-mers 3845439 - 4012632
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 21: Reading and creating graph for K-mers 3511053 - 3678246
+Process 18: Reading and creating graph for K-mers 3009474 - 3176667
+Process 1: Reading and creating graph for K-mers 167193 - 334386
+Detected 4514197 kmers in text UFX file: test
+Process 17: Reading and creating graph for K-mers 2842281 - 3009474
+Process 14: Reading and creating graph for K-mers 2340702 - 2507895
+Process 7: Reading and creating graph for K-mers 1170351 - 1337544
+Process 22: Reading and creating graph for K-mers 3678246 - 3845439
+Process 9: Reading and creating graph for K-mers 1504737 - 1671930
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 27
+Input reading time: 0.042901 seconds
+Graph construction time: 0.097497 seconds
+Graph traversal time: 0.156846 seconds
+UPCR: UPC threads  6.. 7 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  3 of 14, pid=14947)
+UPCR: UPC threads 14..15 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  7 of 14, pid=14951)
+UPCR: UPC threads 16..17 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  8 of 14, pid=14952)
+UPCR: UPC threads 20..21 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 10 of 14, pid=14954)
+UPCR: UPC threads 22..23 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 11 of 14, pid=14955)
+UPCR: UPC threads 24..25 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 12 of 14, pid=14956)
+UPCR: UPC threads 26..27 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process 13 of 14, pid=14957)
+UPCR: UPC threads  0.. 1 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  0 of 14, pid=14944)
+UPCR: UPC threads  2.. 3 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  1 of 14, pid=14945)
+UPCR: UPC threads  4.. 5 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  2 of 14, pid=14946)
+UPCR: UPC threads  8.. 9 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  4 of 14, pid=14948)
+UPCR: UPC threads 10..11 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  5 of 14, pid=14949)
+UPCR: UPC threads 12..13 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  6 of 14, pid=14950)
+UPCR: UPC threads 18..19 of 28 on r350.pvt.bridges.psc.edu (pshm node 0 of 1, process  9 of 14, pid=14953)
+Detected 4514197 kmers in text UFX file: test
+Process 4: Reading and creating graph for K-mers 644888 - 806110
+Detected 4514197 kmers in text UFX file: test
+Process 12: Reading and creating graph for K-mers 1934664 - 2095886
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 26: Reading and creating graph for K-mers 4191772 - 4352994
+Process 3: Reading and creating graph for K-mers 483666 - 644888
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 16: Reading and creating graph for K-mers 2579552 - 2740774
+Process 8: Reading and creating graph for K-mers 1289776 - 1450998
+Process 10: Reading and creating graph for K-mers 1612220 - 1773442
+Process 5: Reading and creating graph for K-mers 806110 - 967332
+Detected 4514197 kmers in text UFX file: test
+Process 21: Reading and creating graph for K-mers 3385662 - 3546884
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 19: Reading and creating graph for K-mers 3063218 - 3224440
+Process 23: Reading and creating graph for K-mers 3708106 - 3869328
+Detected 4514197 kmers in text UFX file: test
+Process 14: Reading and creating graph for K-mers 2257108 - 2418330
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 6: Reading and creating graph for K-mers 967332 - 1128554
+Detected 4514197 kmers in text UFX file: test
+Process 13: Reading and creating graph for K-mers 2095886 - 2257108
+Process 1: Reading and creating graph for K-mers 161222 - 322444
+Process 22: Reading and creating graph for K-mers 3546884 - 3708106
+Process 20: Reading and creating graph for K-mers 3224440 - 3385662
+Process 0: Reading and creating graph for K-mers 0 - 161222
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 2: Reading and creating graph for K-mers 322444 - 483666
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Detected 4514197 kmers in text UFX file: test
+Process 18: Reading and creating graph for K-mers 2901996 - 3063218
+Detected 4514197 kmers in text UFX file: test
+Process 17: Reading and creating graph for K-mers 2740774 - 2901996
+Process 11: Reading and creating graph for K-mers 1773442 - 1934664
+Process 15: Reading and creating graph for K-mers 2418330 - 2579552
+Process 25: Reading and creating graph for K-mers 4030550 - 4191772
+Process 7: Reading and creating graph for K-mers 1128554 - 1289776
+Process 27: Reading and creating graph for K-mers 4352994 - 4514197
+Process 24: Reading and creating graph for K-mers 3869328 - 4030550
+Detected 4514197 kmers in text UFX file: test
+Process 9: Reading and creating graph for K-mers 1450998 - 1612220
+/pylon5/cc3uv3p/jsimms22/upc2/./pgen: Input set: test
+Number of UPC threads: 28
+Input reading time: 0.052692 seconds
+Graph construction time: 0.074540 seconds
+Graph traversal time: 0.130743 seconds

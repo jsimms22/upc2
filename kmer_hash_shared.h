@@ -109,7 +109,7 @@ shared shared_kmer_t* lookup_kmer_shared_local(shared_hash_table_t *hashtable, c
 /* Looks up a kmer in the hash table and returns a pointer to that entry */
 shared shared_kmer_t* lookup_kmer_shared_remote(shared shared_hash_table_t *hashtable, const unsigned char *kmer)
 {
-    char packedKmer[KMER_PACKED_LENGTH], curKmer[KMER_PACKED_LENGTH];
+   char packedKmer[KMER_PACKED_LENGTH], curKmer[KMER_PACKED_LENGTH];
    packSequence(kmer, (unsigned char*) packedKmer, KMER_LENGTH);
    int64_t hashval = hashkmer(hashtable->size, (char*) packedKmer);
    shared shared_kmer_t *result;

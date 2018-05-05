@@ -1,0 +1,4 @@
+Detected 4514197 kmers in text UFX file: test
+Generated 5736 contigs with 4617445 total bases
+Total execution time: 2.330000 seconds (1.080000 graph construction / 1.250000 graph traversal)
+Files serial.sorted and pgen.sorted differ
